@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inscription</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content">
+		<div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="#" method="post">
+							<div class="wizard-header" >
+								 <center><h1 class="heading">Biénvenue sur  UPL - INSCRIPTION</h1>
+									<p>Voici un formulaire d'inscription. </p></center>
+							</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="page-content">
+		<div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<p class="step-icon"><span>01</span></p>
+			            	<span class="step-text">Informations</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Informations personnelles</h3>
+									<p>Veuillez entrer vos informations et passer à l’étape
+										suivante pour continuer votre inscription. </p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>Prénom</legend>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Prénom" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Post-nom</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Post-Nom" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Nom</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Nom" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Votre Email</legend>
+											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="exemple@email.com" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Téléphone</legend>
+											<input type="tel" class="form-control" id="phone" name="phone" placeholder="+243" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>Nom du Responsable</legend>
+											<input type="text" class="form-control" id="name-resp" name="name-resp" placeholder="Nom reponsable" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Telephone</legend>
+											<input type="number" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="Tel responsable" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<legend>Date de Naissance</legend>
+										<select name="month" id="month">
+											<option value="16">1</option>
+											<option value="17">2</option>
+											<option value="18">3</option>
+											<option value="19">4</option>
+											<option value="16">5</option>
+											<option value="17">6</option>
+											<option value="18">7</option>
+											<option value="19">8</option>
+											<option value="16">9</option>
+											<option value="17">10</option>
+											<option value="18">11</option>
+											<option value="19">12</option>
+											<option value="16">13</option>
+											<option value="17">14</option>
+											<option value="18">15</option>
+											<option value="19">16</option>
+											<option value="17">17</option>
+											<option value="18">18</option>
+											<option value="19">19</option>
+											<option value="16">20</option>
+											<option value="17">21</option>
+											<option value="18">22</option>
+											<option value="19">23</option>
+											<option value="16">24</option>
+											<option value="17">25</option>
+											<option value="18">26</option>
+											<option value="19">27</option>
+											<option value="16">28</option>
+											<option value="17">29</option>
+											<option value="18">30</option>
+											<option value="19">31</option>
+										</select>
+										<select name="date" id="date">
+											<option value="Feb">Janvier</option>
+											<option value="Feb">Fevrier</option>
+											<option value="Mar">Mars</option>
+											<option value="Apr">Avril</option>
+											<option value="May">Mai</option>
+											<option value="Feb">Juin</option>
+											<option value="Feb">Juillet</option>
+											<option value="Feb">Aout</option>
+											<option value="Feb">Septembre</option>
+											<option value="Feb">Octobre</option>
+											<option value="Feb">Novembre</option>
+											<option value="Feb">Decembre</option>
+										</select>
+										<select name="year" id="year">
+											<option value="2017">2017</option>
+											<option value="2016">2016</option>
+											<option value="2015">2015</option>
+											<option value="2014">2014</option>
+											<option value="2013">2013</option>
+											<option value="2017">2012</option>
+											<option value="2016">2011</option>
+											<option value="2015">2010</option>
+											<option value="2014">2009</option>
+											<option value="2013">2008</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Lieu de Naissance</legend>
+										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Lieu de Naissance" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Nationalité</legend>
+										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Nationalité" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Etat Civil</legend>
+										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Etat Civil" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Adresse de Résidence</legend>
+										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Adresse de Résidence" required>
+									</div>
+								</div>
+								<div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<legend>Genre:</legend>
+										<select name="Genre" id="Genre">
+											<option value="M" >M</option>
+											<option value="F">F</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="wizard-header">
+								<a href="#">
+									<h5 class="heading">Quitter L'inscription</h5>
+								</a>
+							</div>
+			            </section>
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<p class="step-icon"><span>02</span></p>
+			            	<span class="step-text">Info Suivant</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Etudes sécondaire faites</h3>
+									<p>Veuillez continuer L'enregistrement de vos informations et passer à l’étape
+										suivante pour continuer votre inscription.</p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Nom de l'établissement fréquenté</legend>
+											<input type="text" name="ecole" id="ecole" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Nom de l'établissement fréquenté" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Adresse de l'établissement</legend>
+											<input type="text" name="adresse-ecole" id="adresse-ecole" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Adresse de l'établissement" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Section suivie aux humanités</legend>
+											<input type="text" name="section-ecole" id="section-ecole" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Section suivie aux humanités" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>Année d'obtention du diplome</legend>
+											<input type="number" class="form-control" id="annee_diplome" name="annee_diplome" placeholder="Année d'obtention" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Pourcentage</legend>
+											<input type="number" class="form-control" id="Pourcentage" name="Pourcentage" placeholder="Pourcentage" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Numéro du diplome d'Etat</legend>
+											<input type="text" name="numero_diplome" id="numero_diplome" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Numéro du diplome d'Etat" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Autres informations</legend>
+											<input type="text" name="onfo" id="onfo" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Autres informations" required>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+							<div class="wizard-header">
+								<a href="#">
+									<h5 class="heading">Quitter L'inscription</h5>
+								</a>
+								<h5 class="heading">Je certifie sur mon honneur que les renseignements fournis
+									ci-précédemment sont excats.
+								</h5>
+							</div>
+			            </section>
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<p class="step-icon"><span>03</span></p>
+			            	<span class="step-text">Choix Filliere</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Votre Choix de Filliere</h3>
+									<p>Veuillez choisir la filliere et passer à l’étape
+										suivante afin de continuer votre incription.</p>
+								</div>
+								<div class="form-row">
+			                		<div class="form-holder form-holder-2">
+			                			<input type="radio" class="radio" name="radio1" id="plan-1" value="plan-1">
+			                			<label class="plan-icon plan-1-label" for="plan-1">
+		                					<img src="images/form-v1-icon-2.png" alt="pay-1">
+			                			</label>
+			                			<div class="plan-total">
+		                					<span class="plan-title">Informatique</span>
+		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                				</div>
+			                			<input type="radio" class="radio" name="radio1" id="plan-2" value="plan-2">
+			                			<label class="plan-icon plan-2-label" for="plan-2">
+			                					<img src="images/form-v1-icon-2.png" alt="pay-1">
+			                			</label>
+			                			<div class="plan-total">
+		                					<span class="plan-title">Théologie</span>
+		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                				</div>
+										<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
+										<label class="plan-icon plan-3-label" for="plan-3">
+		                					<img src="images/form-v1-icon-3.png" alt="pay-2">
+										</label>
+										<div class="plan-total">
+		                					<span class="plan-title">Polytechnique</span>
+		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                				</div>
+										<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
+										<label class="plan-icon plan-3-label" for="plan-3">
+		                					<img src="images/form-v1-icon-3.png" alt="pay-2">
+										</label>
+										<div class="plan-total">
+		                					<span class="plan-title">Droit</span>
+		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                				</div>
+			                		</div>
+			                	</div>
+							</div>
+							<div class="wizard-header">
+								<a href="#">
+									<h5 class="heading">Quitter L'inscription</h5>
+								</a>
+							</div>
+			            </section>
+						<!-- SECTION 4 -->
+			            <h2>
+			            	<p class="step-icon"><span>04</span></p>
+			            	<span class="step-text">Soumission Dossier</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Soumission du dossier d'admission au
+										cucle de licence
+									</h3>
+									<p>Voici la liste que constituéra votre dossier d'inscrption ainsi que les normes
+										du dépot.</p>
+								</div>
+								<h4 class="heading">I. Rassembler les éléments du dossier suivants</h4>
+								<p>1. 4 photos passeports identiques et récentes <br>
+									2. La copie du diplome d'Etat ou le journal officiel <br>
+									3. la copie de la carte d'électeur ou la carte d'étudiant
+								</p>
+									<h4 class="heading">II. Procédure de soumission pour ceux qui sont hors
+										la ville de Lubumbashi
+									</h4>
+									<p>1. Scanner les éléments du dossier et le bordereau du
+										transfert des frais au format pdf et les placer dans une archive zip. <br>
+										2. Les envoyer a l'adresse : inscription@upl.org <br>
+										3. Les frais d'inscription s'élèvent a 30 dollars. <br>
+										4. Les frais sont a envoyer par wester union. <strong>Le 
+											bénéficiaire est Fabien Lomba</strong> <br>
+										5. Faire le suivi du dossier par : <br>
+										- mail : inscription@upl.org <br>
+										- téléphone et whatsapp : +243 973 335 253 <br>
+										</p>
+										<h4 class="heading">III. Pour les résidents de Lubumbashi</h4>
+										<p>La soumission se fait au niveau du guichet, juste a l'entrée puis a votre
+											gauche.
+										</p>
+							</div>
+							<div class="wizard-header">
+								<a href="#">
+									<h5 class="heading">Revenier sur le site</h5>
+								</a>
+							</div>
+			            </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
